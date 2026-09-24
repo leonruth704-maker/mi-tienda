@@ -18,7 +18,7 @@
   <!-- ==================== ENCABEZADO Y LOGO ==================== -->
   <header class="header">
     <!-- Logo de la tienda -->
-    <img src="img/logo.jpg" alt="Logo Productos Leon's" class="logo">
+    <img src="logo.jpg" alt="Logo Productos Leon's" class="logo">
 
     <!-- Título principal -->
     <h1 class="star-title">Productos Leon´s</h1>
@@ -50,7 +50,7 @@
       <!-- PRODUCTO 1: KERATINA -->
       <div class="product animate">
         <!-- Haz clic en la imagen para abrir la información descriptiva del producto -->
-        <img src="img/keratina.jpg" alt="Keratina 1 lt" onclick="showProductInfo('Keratina 1 lt')" style="cursor: pointer;" />
+        <img src="keratina.jpg" alt="Keratina 1 lt" onclick="showProductInfo('Keratina 1 lt')" style="cursor: pointer;" />
         <h2>Keratina 1 lt</h2>
         <p>$1800 MXN</p>
         <button onclick="addToCart('Kit de Alisado Keratina', 1800)">Agregar al carrito</button>
@@ -59,7 +59,7 @@
       <!-- PRODUCTO 2: KIT DE MANTENIMIENTO -->
       <div class="product animate">
         <!-- Haz clic en la imagen para abrir la información descriptiva del producto -->
-        <img src="img/kit.jpg" alt="Kit de Mantenimiento de Alisado de Keratina" onclick="showProductInfo('Kit de Mantenimiento')" style="cursor: pointer;" />
+        <img src="kit.jpg" alt="Kit de Mantenimiento de Alisado de Keratina" onclick="showProductInfo('Kit de Mantenimiento')" style="cursor: pointer;" />
         <h2>Kit de Mantenimiento de Alisado Keratina</h2>
         <p>$450.00 MXN</p>
         <button onclick="addToCart('Kit de Mantenimiento', 450)">Agregar al carrito</button>
@@ -68,7 +68,7 @@
       <!-- PRODUCTO 3: SHAMPOO DE LIMPIEZA PROFUNDA -->
       <div class="product animate">
         <!-- Haz clic en la imagen para abrir la información descriptiva del producto -->
-        <img src="img/shampoo.jpg" alt="Shampoo de limpieza profunda" onclick="showProductInfo('Shampoo sin sal')" style="cursor: pointer;" />
+        <img src="shampoo.jpg" alt="Shampoo de limpieza profunda" onclick="showProductInfo('Shampoo sin sal')" style="cursor: pointer;" />
         <h2>Shampoo de limpieza profunda</h2>
         <p>$420.00 MXN</p>
         <button onclick="addToCart('Shampoo sin sal', 420)">Agregar al carrito</button>
@@ -82,15 +82,15 @@
       <div class="carousel-container">
         <button class="arrow left" onclick="scrollCarousel(-1)">&#10094;</button>
         <div class="carousel-track">
-          <img src="img/1.jpg" alt="Keratina" onclick="openModal(this.src)" />
-          <img src="img/2.jpg" alt="Kit Mantenimiento" onclick="openModal(this.src)" />
-          <img src="img/3.jpg" alt="Shampoo" onclick="openModal(this.src)" />
-          <img src="img/4.jpg" onclick="openModal(this.src)" />
-          <img src="img/5.jpg" onclick="openModal(this.src)" />
-          <img src="img/6.jpg" onclick="openModal(this.src)" />
-          <img src="img/7.jpg" onclick="openModal(this.src)" />
-          <img src="img/8.jpg" onclick="openModal(this.src)" />
-          <img src="img/10.jpg" onclick="openModal(this.src)" />
+          <img src="1.jpg" alt="Keratina" onclick="openModal(this.src)" />
+          <img src="2.jpg" alt="Kit Mantenimiento" onclick="openModal(this.src)" />
+          <img src="3.jpg" alt="Shampoo" onclick="openModal(this.src)" />
+          <img src="4.jpg" onclick="openModal(this.src)" />
+          <img src="5.jpg" onclick="openModal(this.src)" />
+          <img src="6.jpg" onclick="openModal(this.src)" />
+          <img src="7.jpg" onclick="openModal(this.src)" />
+          <img src="8.jpg" onclick="openModal(this.src)" />
+          <img src="10.jpg" onclick="openModal(this.src)" />
         </div>
         <button class="arrow right" onclick="scrollCarousel(1)">&#10095;</button>
       </div>
@@ -110,7 +110,7 @@
         <!-- Botón de tache para cerrar la ventana -->
         <span onclick="closeProductModal()" style="position:absolute; top:10px; right:15px; font-size:24px; cursor:pointer; font-weight:bold; color:#333333;">&times;</span>
         
-        <!-- Título del producto en la ventana (Cambia font-size o color si deseas) -->
+        <!-- Título del producto en la ventana -->
         <h3 id="modalTitle" style="margin-top:0; color:#222222; font-size:22px;"></h3>
         
         <!-- Texto con la función explicativa del producto -->
@@ -126,11 +126,11 @@
       <h2 class="video-title">Videos de alaciados</h2>
       <div class="video-row">
         <video width="300" controls>
-          <source src="video/VID-20210110-WA0014.mp4" type="video/mp4" />
+          <source src="VID-20210110-WA0014.mp4" type="video/mp4" />
           Tu navegador no soporta la reproducción de video.
         </video>
         <video width="300" controls>
-          <source src="video/VID_20210611_193937.mp4" type="video/mp4" />
+          <source src="VID_20210611_193937.mp4" type="video/mp4" />
           Tu navegador no soporta la reproducción de video.
         </video>
       </div>
